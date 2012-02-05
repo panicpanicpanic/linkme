@@ -1,4 +1,4 @@
-												                     ### DATABASE CONFIGURATION ###
+### DATABASE CONFIGURATION ###
 
 # WHEN YOU ARE DONE CONFIGURING THE FILE, RUN IT!# 
 
