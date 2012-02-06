@@ -21,4 +21,6 @@ def main():
 	
 	createDb.commit()
 	
+	dbfile.close()	
+
 main()

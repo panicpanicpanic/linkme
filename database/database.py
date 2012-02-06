@@ -23,4 +23,6 @@ def main():
 	
 	dbfile.commit()
 	
+	dbfile.close()
+	
 main()
