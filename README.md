@@ -12,7 +12,6 @@ This is a small Python program that is designed to help manage links. The progra
 # def table():
 	# table = dbcurs.execute('''CREATE TABLE "table name"
 	# (id INTEGER PRIMARY KEY, name TEXT, link TEXT)''')
-
 def main():
 	# table()
 </pre>
