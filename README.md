@@ -9,12 +9,12 @@ This is a small Python program that is designed to help manage links. The progra
 	* Everywhere there's a "table name" enter a table name that you want to use. Here's an example: links (remove the quotes). Make sure you apply this in the 'table', 'insertdb', and 'getdb' functions where this is a "table name" listed. 
 	* Once you run the file once, the table will be created. If you run the file again, you should get an error about the table already existed. Don't freak out- That just means it worked! To get rid of the error, just comment out (put a #) the def table function and it's contents. Also, comment out table() in the main function. It should look like this:
 
-# def table():
+'# def table():
 	# table = dbcurs.execute('''CREATE TABLE "table name"
 	# (id INTEGER PRIMARY KEY, name TEXT, link TEXT)''')
 
 def main():
-	# table()
+	# table()'
 
 2. LINK AWAY!
 
