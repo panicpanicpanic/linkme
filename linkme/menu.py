@@ -20,7 +20,7 @@ def main():
 def menu():
 	print('Welcome to LinkMe!')
 	print('Here are your options: ')
-	option = raw_input('Do you want to put stuff into the database? (enter i or I) OR read what from it? (enter r or R)?: ')
+	option = raw_input('Do you want to put stuff into the database? (enter i) OR read what from it? (enter r)?: ')
 	if option == 'i':
 		insertdb()
 	elif option == 'r':
